@@ -23,7 +23,10 @@
 
 ## 参考にしたサイト
 
-- xxx
+- slick
+- https://kenwheeler.github.io/slick/
+- 【jQuery】スライダープラグイン「slick」実装サンプル集
+- https://125naroom.com/web/3198
 
 ## 更新履歴
 
