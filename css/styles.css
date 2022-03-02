@@ -173,11 +173,26 @@ select::-ms-expand {
   display: none;
 }
 
-.y-cnt {
-  width: 200px;
-  width: 12.5rem;
-  height: 200px;
-  height: 12.5rem;
-  background-color: rgb(0, 0, 255);
+#slide {
+  position: relative;
+  overflow: hidden;
+  height: 375px;
+}
+#slide ul {
+  position: absolute;
+  width: 1125px;
+}
+#slide li {
+  float: left;
+  width: 375px;
+  list-style-type: none;
+}
+#nextBtn {
+  position: absolute;
+  right: 0;
+}
+#prevBtn {
+  position: absolute;
+  left: 0;
 }
 /*# sourceMappingURL=styles.css.map */

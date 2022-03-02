@@ -3,7 +3,9 @@
 // tb size 768px -> md
 // pc size 1440px -> xl
 
-.js-slider-photo {
+#nextBtn {
+  position: absolute;
+  right: 0;
   @include mq(md) {
   }
   @include mq(xl) {
