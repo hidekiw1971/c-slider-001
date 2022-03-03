@@ -23,6 +23,10 @@
 
 ## 参考にしたサイト
 
+- jquery.com
+- https://releases.jquery.com/
+- 【初心者向け】jQueryプラグイン「slick」で簡単にスライダー実装！【Webデザイン・コーディング】
+- https://youtu.be/Tl9oxreo0ys
 - slick
 - https://kenwheeler.github.io/slick/
 - 【jQuery】スライダープラグイン「slick」実装サンプル集
