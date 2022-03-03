@@ -18,6 +18,9 @@
   <meta property="og:description" content="" />
   <!-- ファビコン -->
   <link rel="”icon”" href="" />
+  <!-- jQuely slick cdn -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
   <!-- css -->
   <link rel="stylesheet" href="./css/styles.css">
   <!-- JavaScript -->
@@ -28,18 +31,15 @@
 <body>
 
   <!-- copy start -->
-  <div id="slide">
-    <ul>
-      <li><img src="images/meme1@500.jpg" alt="img1"></li>
-      <li><img src="images/meme2@500.jpg" alt="img1"></li>
-      <li><img src="images/meme3@500.jpg" alt="img1"></li>
-    </ul>
+  <div class="slider">
+    <div><img class="slide-img" src="images/meme1@500.jpg" alt=""></div>
+    <div><img class="slide-img" src="images/meme2@500.jpg" alt=""></div>
+    <div><img class="slide-img" src="images/meme3@500.jpg" alt=""></div>
   </div>
-  <button id="prevBtn">pre</button>
-  <button id="nextBtn">next</button>
   <!-- copy end -->
 
-
+  <!-- jQuery本体の読み込み cdn -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 
 </html>

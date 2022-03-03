@@ -173,26 +173,29 @@ select::-ms-expand {
   display: none;
 }
 
-#slide {
-  position: relative;
-  overflow: hidden;
-  height: 375px;
+.slider {
+  margin: 0 auto;
+  max-width: 500px;
+  height: 500px;
+  visibility: hidden;
 }
-#slide ul {
-  position: absolute;
-  width: 1125px;
+.slider.slick-initialized {
+  visibility: visible;
 }
-#slide li {
-  float: left;
-  width: 375px;
-  list-style-type: none;
+
+.slick-next {
+  right: 10px;
 }
-#nextBtn {
-  position: absolute;
-  right: 0;
+
+.slick-prev {
+  z-index: 1;
+  left: 10px;
 }
-#prevBtn {
-  position: absolute;
-  left: 0;
+
+.slide-img {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=styles.css.map */

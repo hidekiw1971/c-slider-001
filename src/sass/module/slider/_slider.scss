@@ -1,0 +1,29 @@
+@use "global" as *;
+// sp size 375px -> sp
+// tb size 768px -> md
+// pc size 1440px -> xl
+
+.slider {
+  margin: 0 auto;
+  max-width: 500px;
+  height: 500px;
+  visibility: hidden; // 画面更新した時に一瞬縦並びしてる画像を見えなくする設定。
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+// 画面更新した時に一瞬縦並びしてる画像を見えなくする設定。
+// sliderの準備ができたら(.slick-initializedが付与されたら)
+.slider.slick-initialized {
+  visibility: visible; // 表示する。
+}
+
+.slick-next {
+  right: 10px;
+}
+.slick-prev {
+  z-index: 1;
+  left: 10px;
+}
