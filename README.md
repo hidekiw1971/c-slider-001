@@ -25,8 +25,10 @@
 
 - jquery.com
 - https://releases.jquery.com/
-- 【初心者向け】jQueryプラグイン「slick」で簡単にスライダー実装！【Webデザイン・コーディング】
+- 【初心者向け】jQuery プラグイン「slick」で簡単にスライダー実装！【Web デザイン・コーディング】
 - https://youtu.be/Tl9oxreo0ys
+- 『slick』の基本的な使い方（オプションなど）を細かくまとめていく
+- https://weblasts.com/javascript/slick-basic-option
 - slick
 - https://kenwheeler.github.io/slick/
 - 【jQuery】スライダープラグイン「slick」実装サンプル集
@@ -34,6 +36,7 @@
 
 ## 更新履歴
 
+- 2022/3/4 レスポンシブ対応まで完了。一応これで完成。
 - 2022/3/4 やっと動くようになった。レスポンシブは未対応（パラメータで breakpoint を設定するだけ見たい。）
 - 2022/3/1 初版 作成中
 
