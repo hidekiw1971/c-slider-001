@@ -4,7 +4,7 @@ jQuery(function ($) {
   $(document).ready(function () {
     $(".slider").slick({
       autoplay: true,
-      arrows: false,
+      arrows: true,
       dots: true,
       // responsiveのbreakpoint設定もある。ここで設定する。
       responsive: [
