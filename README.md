@@ -1,10 +1,11 @@
-# module（共通部品）
+# compornent（共通部品）
 
 ## jQuery
 
 - slider(スライダー)の実装
 
 ## 作成状況
+
 - 完成
 
 ## イメージ画像
@@ -12,7 +13,6 @@
 <img width="414" alt="image" src="https://user-images.githubusercontent.com/99580997/156728935-099a89b4-f8c2-40b5-8aee-41d9228369a8.png">
 <img width="533" alt="image" src="https://user-images.githubusercontent.com/99580997/156728990-23003900-876a-41be-aa64-50cfcb686230.png">
 <img width="684" alt="image" src="https://user-images.githubusercontent.com/99580997/156729062-6b00de2a-08d4-41ab-b68f-4f70b72dbb89.png">
-
 
 ## portfolio url:
 
@@ -42,6 +42,7 @@
 
 ## 更新履歴
 
+- 2022/3/7 リポジトリ名変更(jQ-slider-001 -> c-slider-001)
 - 2022/3/4 レスポンシブ対応まで完了。一応これで完成。
 - 2022/3/4 やっと動くようになった。レスポンシブは未対応（パラメータで breakpoint を設定するだけ見たい。）
 - 2022/3/1 初版 作成中
